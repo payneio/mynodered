@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "NODE_OPTIONS=--max_old_space_size=512 node_modules/node-red/bin/node-red-pi -s settings.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
